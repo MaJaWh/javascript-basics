@@ -10,9 +10,9 @@ const lowercase = c => {
   return c.toLowerCase();
 };
 
-function countCharacters(string) {
-  // your code here
-}
+const countCharacters = d => {
+  return d.length;
+};
 
 function firstCharacter(string) {
   // your code here
