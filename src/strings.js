@@ -2,13 +2,13 @@ const sayHello = a => {
   return 'Hello, ' + a + '!';
 };
 
-function uppercase(string) {
-  // your code here
-}
+const uppercase = c => {
+  return c.toUpperCase();
+};
 
-function lowercase(string) {
-  // your code here
-}
+const lowercase = c => {
+  return c.toLowerCase();
+};
 
 function countCharacters(string) {
   // your code here
