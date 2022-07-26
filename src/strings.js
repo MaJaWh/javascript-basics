@@ -14,13 +14,13 @@ const countCharacters = d => {
   return d.length;
 };
 
-function firstCharacter(string) {
-  // your code here
-}
+const firstCharacter = e => {
+  return e.charAt(0);
+};
 
-function firstCharacters(string, n) {
-  // your code here
-}
+const firstCharacters = (a, b) => {
+  return a.substring(0, b);
+};
 
 module.exports = {
   sayHello,
