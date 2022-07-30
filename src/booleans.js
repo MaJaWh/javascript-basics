@@ -50,8 +50,15 @@ const startsWith = (s, f) => {
   return f.charAt(0) === s;
 };
 
+const vowels = ['a', 'e', 'i', 'o', 'u'];
 const containsVowels = v => {
-  return v.length(contains['aeiou']);
+  let count = 0;
+  for (let letter of v.toLowerCase()) {
+    if (vowels.includes(letter)) {
+      count++;
+    }
+  }
+  return count === 1;
 };
 
 const isLowerCase = c => {
