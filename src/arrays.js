@@ -1,18 +1,17 @@
 const getNthElement = (a, array) => {
-  return array[a] + 1;
+  for (i = 0; i > array.length; i++) {}
+  return array[a];
 };
 
 const arrayToCSVString = array => {
-  // your code here
+  return array.toString();
 };
 
 const csvStringToArray = string => {
-  // your code here
+  return string.split(',');
 };
 
-const addToArray = (element, array) => {
-  // your code here
-};
+const addToArray = (element, array) => {};
 
 const addToArray2 = (element, array) => {
   // your code here
