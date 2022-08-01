@@ -1,6 +1,5 @@
-const getNthElement = (a, array) => {
-  for (i = 0; i > array.length; i++) {}
-  return array[a];
+const getNthElement = (index, array) => {
+  return array[index % array.length];
 };
 
 const arrayToCSVString = array => {
@@ -16,12 +15,12 @@ const addToArray = (element, array) => {
   return undefined;
 };
 const addToArray2 = (element, array) => {
-  // your code here
+  const newArray = [...array];
+  newArray.push(element);
+  return newArray;
 };
 
-const removeNthElement = (index, array) => {
-  // your code here
-};
+const removeNthElement = (index, array) => {};
 
 const numbersToStrings = numbers => {
   // your code here
