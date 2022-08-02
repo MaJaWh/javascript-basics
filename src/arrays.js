@@ -49,7 +49,8 @@ const reverseWordsInArray = strings => {
 };
 
 function onlyEven(numbers) {
-  // your code here
+  const newArray = numbers.filter(e => e % 2 === 0);
+  return newArray;
 }
 
 const removeNthElement2 = (index, array) => {
