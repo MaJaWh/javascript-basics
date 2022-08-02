@@ -25,20 +25,32 @@ const removeNthElement = (index, array) => {
 };
 
 const numbersToStrings = numbers => {
-  // your code here
+  const newArray = numbers.map(num => {
+    return String(num);
+  });
+  return newArray;
 };
 
 const uppercaseWordsInArray = strings => {
-  // your code here
+  const newArray = strings.map(element => {
+    return element.toUpperCase();
+  });
+  return newArray;
 };
 
 const reverseWordsInArray = strings => {
-  // your code here
+  const newArray = strings.map(e => {
+    return e
+      .split([])
+      .reverse()
+      .join('');
+  });
+  return newArray;
 };
 
-const onlyEven = numbers => {
+function onlyEven(numbers) {
   // your code here
-};
+}
 
 const removeNthElement2 = (index, array) => {
   // your code here
