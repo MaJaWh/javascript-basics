@@ -74,7 +74,9 @@ const sumNumbers = numbers => {
 };
 
 const sortByLastLetter = strings => {
-  // your code here
+  return strings.sort((a, b) => {});
+  const lastLetterofA = 
+  const lastLetterofB = 
 };
 
 module.exports = {
