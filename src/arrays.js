@@ -74,9 +74,11 @@ const sumNumbers = numbers => {
 };
 
 const sortByLastLetter = strings => {
-  return strings.sort((a, b) => {});
-  const lastLetterofA = 
-  const lastLetterofB = 
+  return strings.sort((a, b) => {
+    return a[a.length - 1] > b[b.length - 1] ? 1 : -1;
+  });
+  // const lastLetterofA =
+  // const lastLetterofB =
 };
 
 module.exports = {
